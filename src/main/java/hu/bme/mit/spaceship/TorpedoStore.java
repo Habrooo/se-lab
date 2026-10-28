@@ -14,6 +14,7 @@ public class TorpedoStore {
 
   private int torpedoCount = 0;
 
+  //Egyetlen random generátor, ami meg van osztva minden fire() hívással
   private Random generator = new Random();
 
   public TorpedoStore(int numberOfTorpedos){
